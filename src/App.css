@@ -6,12 +6,11 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  cursor: pointer;
-  font-size: 20px;
+ 
   
 }
 header{
-  padding: 20px;
+  padding: 15px;
   background-color: black;
   color: aliceblue;
 }
@@ -25,12 +24,21 @@ header{
  padding: 10px 0;
   margin: 20px;
  
-  box-shadow: -1px -1px 5px 0 rgba(0, 0, 0, 0.75);
+  box-shadow: -1px -1px 6px 0 rgba(0, 0, 0, 0.75);
   width: 250px;
   height: 320px;
 }
 .product img{
   width: 150px;
+}
+.head button{
+  padding: 5px;
+  font-size: 20px;
+  background-color: black;
+  color: white;
+  outline: none;
+  border: none;
+  cursor: pointer;
 }
 .remove{
   padding: 10px;
@@ -38,6 +46,7 @@ header{
   background-color: red;
   color: white;
   border-radius: 5px;
+  outline: none;
 }
 .add{
   padding: 10px;
@@ -45,4 +54,5 @@ header{
   background-color: green;
   color: white;
   border-radius: 5px;
+  outline: none;
 }

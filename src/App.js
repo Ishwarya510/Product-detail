@@ -87,8 +87,8 @@ function App() {
     <div className="App">
       <header>
         <div className="head">
-        <div onClick={()=>navigate(PAGE)}>Products</div>
-        <div onClick={()=>navigate(CART)} >Cart({cart.length})</div>
+        <button onClick={()=>navigate(PAGE)}>Products</button>
+        <button onClick={()=>navigate(CART)} >Cart({cart.length})</button>
       
         </div>
       </header>
